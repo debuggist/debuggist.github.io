@@ -13,32 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cold Water Pour Over
+title: Grits & Gravy
 email: lane.doug@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Tales of Debugging from a Technology Veteran
+  A hodgepodge of thoughts about whatever I find interesting to share.
+  Like grits and gravy, you should try it at least once.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://debuggist.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: debuggist
 github_username:  debuggist
 
 # Build settings
 markdown: kramdown
-theme: jekyll-whiteglass
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-sitemap
 permalink: /:year/:month/:day/:title/
-paginate_path: /posts/:num/
-paginate: 5
-jekyll-archives:
-  enabled:
-    - categories
-  layout: category_archives
-  permalinks:
-    category: /categories/:name/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
