@@ -17,7 +17,6 @@ title: A Debuggist Life
 # email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   A hodgepodge of thoughts about whatever I find interesting to share.
-  Like grits and gravy, you should try it at least once.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://debuggist.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: debuggist
